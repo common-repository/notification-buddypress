@@ -1,0 +1,977 @@
+# Copyright (C) 2024 BracketSpace
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Notification : BuddyPress 2.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-24T15:48:46+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: notification-buddypress\n"
+
+#. Plugin Name of the plugin
+#: notification-buddypress.php
+#: src/Runtime.php:81
+msgid "Notification : BuddyPress"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: notification-buddypress.php
+msgid "http://wordpress.org/plugins/notification-buddypress/"
+msgstr ""
+
+#. Description of the plugin
+#: notification-buddypress.php
+msgid "BuddyPress integration with Notification plugin. Add Triggers for all BuddyPress actions."
+msgstr ""
+
+#. Author of the plugin
+#: notification-buddypress.php
+msgid "BracketSpace"
+msgstr ""
+
+#. Author URI of the plugin
+#: notification-buddypress.php
+msgid "https://bracketspace.com"
+msgstr ""
+
+#: src/Admin/Settings.php:30
+msgid "Triggers"
+msgstr ""
+
+#: src/Admin/Settings.php:32
+#: src/Admin/Settings.php:84
+msgid "BuddyPress"
+msgstr ""
+
+#: src/Admin/Settings.php:35
+msgid "Activity Triggers"
+msgstr ""
+
+#: src/Admin/Settings.php:39
+msgid "Enable activity triggers"
+msgstr ""
+
+#: src/Admin/Settings.php:47
+msgid "Friendship Triggers"
+msgstr ""
+
+#: src/Admin/Settings.php:51
+msgid "Enable friendship triggers"
+msgstr ""
+
+#: src/Admin/Settings.php:59
+msgid "Group Triggers"
+msgstr ""
+
+#: src/Admin/Settings.php:63
+msgid "Enable group triggers"
+msgstr ""
+
+#: src/Admin/Settings.php:82
+msgid "Carriers"
+msgstr ""
+
+#: src/Admin/Settings.php:87
+msgid "Enable"
+msgstr ""
+
+#: src/Admin/Settings.php:91
+msgid "Enable BuddyPress Carrier"
+msgstr ""
+
+#: src/Repository/Carrier/BuddyPressNotification.php:35
+msgid "BuddyPress Notification"
+msgstr ""
+
+#: src/Repository/Carrier/BuddyPressNotification.php:49
+msgid "Content"
+msgstr ""
+
+#: src/Repository/Carrier/BuddyPressNotification.php:59
+msgid "Link"
+msgstr ""
+
+#: src/Repository/Carrier/BuddyPressNotification.php:68
+msgid "State"
+msgstr ""
+
+#: src/Repository/Carrier/BuddyPressNotification.php:71
+msgid "Unread"
+msgstr ""
+
+#: src/Repository/Carrier/BuddyPressNotification.php:72
+msgid "Read"
+msgstr ""
+
+#: src/Repository/Recipient/Role.php:27
+msgid "Role"
+msgstr ""
+
+#: src/Repository/Recipient/Role.php:75
+#: src/Repository/Recipient/User.php:65
+#: src/Repository/Recipient/UserEmail.php:74
+#: src/Repository/Recipient/UserID.php:55
+msgid "Recipient"
+msgstr ""
+
+#: src/Repository/Recipient/User.php:27
+#: src/Repository/Trigger/Group/BanMember.php:77
+#: src/Repository/Trigger/Group/BanMember.php:88
+#: src/Repository/Trigger/Group/BanMember.php:99
+#: src/Repository/Trigger/Group/BanMember.php:110
+#: src/Repository/Trigger/Group/BanMember.php:121
+#: src/Repository/Trigger/Group/BanMember.php:132
+#: src/Repository/Trigger/Group/DemoteMember.php:78
+#: src/Repository/Trigger/Group/DemoteMember.php:89
+#: src/Repository/Trigger/Group/DemoteMember.php:100
+#: src/Repository/Trigger/Group/DemoteMember.php:111
+#: src/Repository/Trigger/Group/DemoteMember.php:122
+#: src/Repository/Trigger/Group/DemoteMember.php:133
+#: src/Repository/Trigger/Group/InviteUser.php:78
+#: src/Repository/Trigger/Group/InviteUser.php:89
+#: src/Repository/Trigger/Group/InviteUser.php:100
+#: src/Repository/Trigger/Group/InviteUser.php:111
+#: src/Repository/Trigger/Group/InviteUser.php:122
+#: src/Repository/Trigger/Group/InviteUser.php:133
+#: src/Repository/Trigger/Group/Join.php:78
+#: src/Repository/Trigger/Group/Join.php:89
+#: src/Repository/Trigger/Group/Join.php:100
+#: src/Repository/Trigger/Group/Join.php:111
+#: src/Repository/Trigger/Group/Join.php:122
+#: src/Repository/Trigger/Group/Join.php:133
+#: src/Repository/Trigger/Group/Leave.php:78
+#: src/Repository/Trigger/Group/Leave.php:89
+#: src/Repository/Trigger/Group/Leave.php:100
+#: src/Repository/Trigger/Group/Leave.php:111
+#: src/Repository/Trigger/Group/Leave.php:122
+#: src/Repository/Trigger/Group/Leave.php:133
+#: src/Repository/Trigger/Group/MembershipAccepted.php:77
+#: src/Repository/Trigger/Group/MembershipAccepted.php:88
+#: src/Repository/Trigger/Group/MembershipAccepted.php:99
+#: src/Repository/Trigger/Group/MembershipAccepted.php:110
+#: src/Repository/Trigger/Group/MembershipAccepted.php:121
+#: src/Repository/Trigger/Group/MembershipAccepted.php:132
+#: src/Repository/Trigger/Group/MembershipRejected.php:77
+#: src/Repository/Trigger/Group/MembershipRejected.php:88
+#: src/Repository/Trigger/Group/MembershipRejected.php:99
+#: src/Repository/Trigger/Group/MembershipRejected.php:110
+#: src/Repository/Trigger/Group/MembershipRejected.php:121
+#: src/Repository/Trigger/Group/MembershipRejected.php:132
+#: src/Repository/Trigger/Group/MembershipRequested.php:94
+#: src/Repository/Trigger/Group/MembershipRequested.php:105
+#: src/Repository/Trigger/Group/MembershipRequested.php:116
+#: src/Repository/Trigger/Group/MembershipRequested.php:127
+#: src/Repository/Trigger/Group/MembershipRequested.php:138
+#: src/Repository/Trigger/Group/MembershipRequested.php:149
+#: src/Repository/Trigger/Group/PromoteMember.php:99
+#: src/Repository/Trigger/Group/PromoteMember.php:110
+#: src/Repository/Trigger/Group/PromoteMember.php:121
+#: src/Repository/Trigger/Group/PromoteMember.php:132
+#: src/Repository/Trigger/Group/PromoteMember.php:143
+#: src/Repository/Trigger/Group/PromoteMember.php:154
+#: src/Repository/Trigger/Group/PromoteMember.php:165
+#: src/Repository/Trigger/Group/RemoveMember.php:77
+#: src/Repository/Trigger/Group/RemoveMember.php:88
+#: src/Repository/Trigger/Group/RemoveMember.php:99
+#: src/Repository/Trigger/Group/RemoveMember.php:110
+#: src/Repository/Trigger/Group/RemoveMember.php:121
+#: src/Repository/Trigger/Group/RemoveMember.php:132
+#: src/Repository/Trigger/Group/UnbanMember.php:77
+#: src/Repository/Trigger/Group/UnbanMember.php:88
+#: src/Repository/Trigger/Group/UnbanMember.php:99
+#: src/Repository/Trigger/Group/UnbanMember.php:110
+#: src/Repository/Trigger/Group/UnbanMember.php:121
+#: src/Repository/Trigger/Group/UnbanMember.php:132
+#: src/Repository/Trigger/Group/UninviteUser.php:77
+#: src/Repository/Trigger/Group/UninviteUser.php:88
+#: src/Repository/Trigger/Group/UninviteUser.php:99
+#: src/Repository/Trigger/Group/UninviteUser.php:110
+#: src/Repository/Trigger/Group/UninviteUser.php:121
+#: src/Repository/Trigger/Group/UninviteUser.php:132
+msgid "User"
+msgstr ""
+
+#: src/Repository/Recipient/UserEmail.php:30
+msgid "User by email"
+msgstr ""
+
+#: src/Repository/Recipient/UserEmail.php:78
+msgid "admin@example.com or {user_email}"
+msgstr ""
+
+#: src/Repository/Recipient/UserEmail.php:79
+msgid "You can use any valid email merge tag."
+msgstr ""
+
+#: src/Repository/Recipient/UserID.php:26
+msgid "User by ID"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:58
+msgid "BuddyPress : Activity"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:73
+msgid "Activity primary link"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:74
+#: src/Repository/Trigger/Activity.php:87
+msgid "Activity"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:86
+msgid "Activity content"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:102
+msgid "Activity user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:104
+#: src/Repository/Trigger/Activity.php:115
+#: src/Repository/Trigger/Activity.php:126
+#: src/Repository/Trigger/Activity.php:137
+#: src/Repository/Trigger/Activity.php:148
+#: src/Repository/Trigger/Activity.php:159
+msgid "Activity author"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:113
+msgid "Activity user login"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:124
+msgid "Activity user email"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:135
+msgid "Activity user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:146
+msgid "Activity user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:157
+msgid "Activity user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:177
+msgid "Favoring user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:179
+#: src/Repository/Trigger/Activity.php:190
+#: src/Repository/Trigger/Activity.php:201
+#: src/Repository/Trigger/Activity.php:212
+#: src/Repository/Trigger/Activity.php:223
+#: src/Repository/Trigger/Activity.php:234
+msgid "Favoring user"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:188
+msgid "Favoring user login"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:199
+msgid "Favoring user email"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:210
+msgid "Favoring user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:221
+msgid "Favoring user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Activity.php:232
+msgid "Favoring user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/Added.php:28
+msgid "Activity added"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/Added.php:73
+msgid "Activity added date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/Added.php:74
+#: src/Repository/Trigger/Activity/AddToFavorities.php:74
+#: src/Repository/Trigger/Activity/AddToFavoritiesFail.php:74
+#: src/Repository/Trigger/Activity/Deleted.php:76
+#: src/Repository/Trigger/Activity/RemoveFromFavorities.php:74
+#: src/Repository/Trigger/Friendship/Accepted.php:70
+#: src/Repository/Trigger/Friendship/Deleted.php:69
+#: src/Repository/Trigger/Friendship/Requested.php:70
+#: src/Repository/Trigger/Group/BanMember.php:142
+#: src/Repository/Trigger/Group/CreateComplete.php:60
+#: src/Repository/Trigger/Group/Deleted.php:61
+#: src/Repository/Trigger/Group/DemoteMember.php:143
+#: src/Repository/Trigger/Group/DetailsUpdated.php:66
+#: src/Repository/Trigger/Group/InviteUser.php:143
+#: src/Repository/Trigger/Group/Join.php:143
+#: src/Repository/Trigger/Group/Leave.php:143
+#: src/Repository/Trigger/Group/MembershipAccepted.php:142
+#: src/Repository/Trigger/Group/MembershipRejected.php:142
+#: src/Repository/Trigger/Group/MembershipRequested.php:159
+#: src/Repository/Trigger/Group/PromoteMember.php:178
+#: src/Repository/Trigger/Group/RemoveMember.php:142
+#: src/Repository/Trigger/Group/SettingsUpdated.php:60
+#: src/Repository/Trigger/Group/UnbanMember.php:142
+#: src/Repository/Trigger/Group/UninviteUser.php:142
+msgid "Date"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/AddToFavorities.php:28
+msgid "Activity added to favorites"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/AddToFavorities.php:73
+msgid "Activity favorited date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/AddToFavoritiesFail.php:28
+msgid "Activity failed to add to favorites"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/AddToFavoritiesFail.php:73
+msgid "Activity favorited fail date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/Deleted.php:28
+msgid "Activity deleted"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/Deleted.php:75
+msgid "Activity deletion date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/RemoveFromFavorities.php:28
+msgid "Activity removed from favorites"
+msgstr ""
+
+#: src/Repository/Trigger/Activity/RemoveFromFavorities.php:73
+msgid "Activity removal from favorities date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:51
+msgid "BuddyPress : Friendship"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:66
+msgid "Initiator user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:68
+#: src/Repository/Trigger/Friendship.php:79
+#: src/Repository/Trigger/Friendship.php:90
+#: src/Repository/Trigger/Friendship.php:101
+#: src/Repository/Trigger/Friendship.php:112
+#: src/Repository/Trigger/Friendship.php:123
+msgid "Initiator"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:77
+msgid "Initiator user login"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:88
+msgid "Initiator user email"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:99
+msgid "Initiator user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:110
+msgid "Initiator user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:121
+msgid "Initiator user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:133
+msgid "Friend user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:135
+#: src/Repository/Trigger/Friendship.php:146
+#: src/Repository/Trigger/Friendship.php:157
+#: src/Repository/Trigger/Friendship.php:168
+#: src/Repository/Trigger/Friendship.php:179
+#: src/Repository/Trigger/Friendship.php:190
+#: src/Repository/Trigger/Friendship/Requested.php:84
+msgid "Friend"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:144
+msgid "Friend user login"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:155
+msgid "Friend user email"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:166
+msgid "Friend user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:177
+msgid "Friend user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship.php:188
+msgid "Friend user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship/Accepted.php:28
+msgid "Friendship accepted"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship/Accepted.php:69
+msgid "Friendship acceptance date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship/Deleted.php:28
+msgid "Friendship deleted"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship/Deleted.php:68
+msgid "Friendship deletion date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship/Requested.php:28
+msgid "Friendship requested"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship/Requested.php:69
+msgid "Friendship request date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship/Requested.php:82
+msgid "Friend requests URL"
+msgstr ""
+
+#: src/Repository/Trigger/Friendship/Requested.php:83
+msgid "Leads to friend requests page of the invited user"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:44
+msgid "BuddyPress : Group"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:58
+msgid "Group ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:59
+#: src/Repository/Trigger/Group.php:74
+#: src/Repository/Trigger/Group.php:89
+#: src/Repository/Trigger/Group.php:105
+#: src/Repository/Trigger/Group.php:119
+#: src/Repository/Trigger/Group.php:134
+#: src/Repository/Trigger/Group.php:149
+#: src/Repository/Trigger/Group.php:162
+#: src/Repository/Trigger/Group/MembershipRequested.php:77
+msgid "Group"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:73
+msgid "Group parent ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:88
+msgid "Group creator ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:103
+msgid "Group name"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:104
+msgid "My Super Example Group"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:118
+msgid "Group slug"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:133
+msgid "Group description"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:148
+msgid "Group status"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:161
+msgid "Group forum enabled"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:163
+msgid "Returns: Enabled or Disabled"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:167
+msgid "Enabled"
+msgstr ""
+
+#: src/Repository/Trigger/Group.php:168
+msgid "Disabled"
+msgstr ""
+
+#: src/Repository/Trigger/Group/BanMember.php:35
+msgid "Ban group member"
+msgstr ""
+
+#: src/Repository/Trigger/Group/BanMember.php:75
+msgid "Banned user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/BanMember.php:86
+msgid "Banned user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/BanMember.php:97
+msgid "Banned user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/BanMember.php:108
+msgid "Banned user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/BanMember.php:119
+msgid "Banned user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/BanMember.php:130
+msgid "Banned user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/BanMember.php:141
+msgid "Ban date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/CreateComplete.php:28
+msgid "Group created"
+msgstr ""
+
+#: src/Repository/Trigger/Group/CreateComplete.php:59
+msgid "Creation date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Deleted.php:29
+msgid "Group deleted"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Deleted.php:60
+msgid "Deletion date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DemoteMember.php:36
+msgid "Demote group member"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DemoteMember.php:76
+msgid "Demoted user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DemoteMember.php:87
+msgid "Demoted user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DemoteMember.php:98
+msgid "Demoted user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DemoteMember.php:109
+msgid "Demoted user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DemoteMember.php:120
+msgid "Demoted user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DemoteMember.php:131
+msgid "Demoted user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DemoteMember.php:142
+msgid "Demotion date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DetailsUpdated.php:28
+msgid "Group details updated"
+msgstr ""
+
+#: src/Repository/Trigger/Group/DetailsUpdated.php:65
+msgid "Details update date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/InviteUser.php:36
+msgid "Invite user to group"
+msgstr ""
+
+#: src/Repository/Trigger/Group/InviteUser.php:76
+msgid "Invited user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/InviteUser.php:87
+msgid "Invited user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/InviteUser.php:98
+msgid "Invited user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/InviteUser.php:109
+msgid "Invited user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/InviteUser.php:120
+msgid "Invited user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/InviteUser.php:131
+msgid "Invited user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/InviteUser.php:142
+msgid "Invitation date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Join.php:36
+msgid "User joined to group"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Join.php:76
+msgid "Joined user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Join.php:87
+msgid "Joined user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Join.php:98
+msgid "Joined user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Join.php:109
+msgid "Joined user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Join.php:120
+msgid "Joined user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Join.php:131
+msgid "Joined user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Join.php:142
+msgid "Join date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Leave.php:36
+msgid "User leaves group"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Leave.php:76
+msgid "Leaving user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Leave.php:87
+msgid "Leaving user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Leave.php:98
+msgid "Leaving user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Leave.php:109
+msgid "Leaving user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Leave.php:120
+msgid "Leaving user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Leave.php:131
+msgid "Leaving user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/Leave.php:142
+msgid "Leave date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipAccepted.php:35
+msgid "Membership accepted"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipAccepted.php:75
+msgid "Accepted user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipAccepted.php:86
+msgid "Accepted user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipAccepted.php:97
+msgid "Accepted user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipAccepted.php:108
+msgid "Accepted user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipAccepted.php:119
+msgid "Accepted user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipAccepted.php:130
+msgid "Accepted user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipAccepted.php:141
+msgid "Membership acceptance date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRejected.php:35
+msgid "Membership rejected"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRejected.php:75
+msgid "Rejected user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRejected.php:86
+msgid "Rejected user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRejected.php:97
+msgid "Rejected user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRejected.php:108
+msgid "Rejected user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRejected.php:119
+msgid "Rejected user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRejected.php:130
+msgid "Rejected user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRejected.php:141
+msgid "Membership rejection date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:35
+msgid "Membership requested"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:75
+msgid "Group requests link"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:76
+msgid "Leads to group membership requests page"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:92
+msgid "Requesting user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:103
+msgid "Requesting user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:114
+msgid "Requesting user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:125
+msgid "Requesting user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:136
+msgid "Requesting user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:147
+msgid "Requesting user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/MembershipRequested.php:158
+msgid "Membership request date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:42
+msgid "Promote group member"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:70
+msgid "Moderator"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:74
+msgid "Administrator"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:78
+msgid "Undefined"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:97
+msgid "Promoted user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:108
+msgid "Promoted user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:119
+msgid "Promoted user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:130
+msgid "Promoted user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:141
+msgid "Promoted user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:152
+msgid "Promoted user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:163
+msgid "Promoted user status in group"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:164
+msgid "Either Moderator or Administrator"
+msgstr ""
+
+#: src/Repository/Trigger/Group/PromoteMember.php:177
+msgid "Promotion date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/RemoveMember.php:35
+msgid "Remove group member"
+msgstr ""
+
+#: src/Repository/Trigger/Group/RemoveMember.php:75
+msgid "Removed user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/RemoveMember.php:86
+msgid "Removed user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/RemoveMember.php:97
+msgid "Removed user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/RemoveMember.php:108
+msgid "Removed user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/RemoveMember.php:119
+msgid "Removed user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/RemoveMember.php:130
+msgid "Removed user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/RemoveMember.php:141
+msgid "Member removal date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/SettingsUpdated.php:28
+msgid "Group settings updated"
+msgstr ""
+
+#: src/Repository/Trigger/Group/SettingsUpdated.php:59
+msgid "Settings update date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UnbanMember.php:35
+msgid "Unban group member"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UnbanMember.php:75
+msgid "Unbanned user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UnbanMember.php:86
+msgid "Unbanned user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UnbanMember.php:97
+msgid "Unbanned user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UnbanMember.php:108
+msgid "Unbanned user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UnbanMember.php:119
+msgid "Unbanned user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UnbanMember.php:130
+msgid "Unbanned user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UnbanMember.php:141
+msgid "Unban date and time"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UninviteUser.php:35
+msgid "Uninvite user to group"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UninviteUser.php:75
+msgid "Uninvited user ID"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UninviteUser.php:86
+msgid "Uninvited user login"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UninviteUser.php:97
+msgid "Uninvited user email"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UninviteUser.php:108
+msgid "Uninvited user display name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UninviteUser.php:119
+msgid "Uninvited user first name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UninviteUser.php:130
+msgid "Uninvited user last name"
+msgstr ""
+
+#: src/Repository/Trigger/Group/UninviteUser.php:141
+msgid "Uninvite date and time"
+msgstr ""
+
+#. Translators: 1. Required Notification version, 2. Used Notification version.
+#: src/Requirements/BasePlugin.php:46
+msgid "Minimum required version of Notification plugin is %1$s. Your version is %2$s"
+msgstr ""
